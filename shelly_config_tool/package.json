@@ -1,0 +1,16 @@
+{
+    "name": "shelly_config_tool",
+    "version": "1.0.2",
+    "description": "Shelly config tool",
+    "author": "John-Robert Yrjölä <https://github.com/JR-Y>",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.23"
+    }
+}
