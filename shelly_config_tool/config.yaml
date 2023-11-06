@@ -1,0 +1,23 @@
+name: "Shelly config tool"
+slug: "shelly_config_tool"
+version: "0.0.1"
+url: "https://github.com/JR-Y/Shelly-config-tool"
+stage: "experimental"
+description: >-
+"Tool to configure local shelly devices"
+arch: 
+  - "armhf"
+  - "armv7"
+  - "aarch64"
+  - "amd64"
+  - "i386"
+startup: "services"
+boot: "auto"
+ports: 
+  - "8000/tcp": 8000
+ports_description: 
+  - "8000/tcp": "Webservice API"
+options: 
+  - refresh_token: ""
+schema: 
+  - refresh_token: "str"
